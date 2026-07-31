@@ -1,8 +1,25 @@
 aid: optimal-dynamics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optimal-dynamics.png
 name: Optimal Dynamics
-description: 'Optimal Dynamics is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Optimal Dynamics is the Decision Company for trucking. Its Transportation
+  Decision System (TDS), CORE.ai, applies Artificial Decision Intelligence — born from
+  40 years of research at Princeton University — to automate and optimize strategic,
+  tactical, and real-time planning for enterprise truckload carriers. The platform
+  spans dispatch management, network management, bid analysis, and network simulation,
+  using dynamic forecasting to simulate downstream impacts and drive highly automated
+  operations that increase revenue per truck and reduce manual planning. Surfaced as
+  a portfolio company of bessemer-venture-partners.'
 url: https://raw.githubusercontent.com/api-evangelist/optimal-dynamics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Vertical Software
+- Logistics
+- Trucking
+- Transportation
+- Supply Chain
+- Artificial Intelligence
+- Decision Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.optimaldynamics.com
+- type: About
+  url: https://www.optimaldynamics.com/about
+- type: Blog
+  url: https://www.optimaldynamics.com/resources/blog
+- type: StatusPage
+  url: https://statuspage.incident.io/optimaldynamics
+- type: PrivacyPolicy
+  url: https://www.optimaldynamics.com/privacy
+- type: Security
+  url: https://www.optimaldynamics.com/security
+- type: TrustCenter
+  url: security/optimal-dynamics-trust-center.yml
+- type: Compliance
+  url: security/optimal-dynamics-trust-center.yml
+- type: DomainSecurity
+  url: security/optimal-dynamics-domain-security.yml
+- type: LLMsTxt
+  url: llms/optimal-dynamics-llms.txt
+- type: SignUp
+  url: https://www.optimaldynamics.com/request-a-demo
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

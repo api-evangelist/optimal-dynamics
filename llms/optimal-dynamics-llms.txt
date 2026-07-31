@@ -1,0 +1,23 @@
+# Optimal Dynamics
+
+> Optimal Dynamics is the Decision Company for trucking. Its Transportation Decision System (TDS), CORE.ai, applies Artificial Decision Intelligence — born from 40 years of research at Princeton University — to automate and optimize strategic, tactical, and real-time planning for enterprise truckload carriers, including dispatch management, network management, bid analysis, and network simulation.
+
+## Company
+- [Website](https://www.optimaldynamics.com): Company home page
+- [About](https://www.optimaldynamics.com/about): Company background and mission
+- [Platform: Decision Automation](https://www.optimaldynamics.com/platform/decision-automation): The agentic decision-automation platform
+- [Partner Integrations](https://www.optimaldynamics.com/platform/partner-integrations): Partner and system integrations (e.g. Samsara)
+
+## Resources
+- [Blog](https://www.optimaldynamics.com/resources/blog): Company blog
+- [Case Studies](https://www.optimaldynamics.com/resources/case-studies): Customer case studies
+- [White Papers](https://www.optimaldynamics.com/resources/white-papers): Research and white papers
+- [Request a Demo](https://www.optimaldynamics.com/request-a-demo): Get started / contact sales
+
+## Trust & Security
+- [Security](https://www.optimaldynamics.com/security): Security program — SOC 2 Type 1 and Type 2 certified (AICPA); encryption at rest and in transit; TLS 1.2+; third-party penetration testing
+- [Status](https://statuspage.incident.io/optimaldynamics): Service status page
+- [Privacy](https://www.optimaldynamics.com/privacy): Privacy policy
+
+## Notes
+- No public developer API, OpenAPI specification, SDK, or developer portal was found as of 2026-07-20. Integration is via partner integrations and enterprise onboarding.

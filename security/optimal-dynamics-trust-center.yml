@@ -1,0 +1,22 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.optimaldynamics.com/security
+url: https://www.optimaldynamics.com/security
+certifications:
+- SOC 2 Type 1
+- SOC 2 Type 2
+security_contact: security@optimaldynamics.com
+practices:
+- Data encryption at rest and in transit
+- TLS 1.2+ encryption for web traffic
+- Third-party penetration testing
+- Static code analysis
+- AWS infrastructure security tooling
+- Code reviews and production sign-offs
+evidence:
+- source: https://www.optimaldynamics.com/security
+  keywords:
+  - soc 2 type 1
+  - soc 2 type 2
+  - aicpa
+  - encryption
