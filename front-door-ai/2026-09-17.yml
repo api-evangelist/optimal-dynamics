@@ -1,0 +1,27 @@
+# Front Door AI Index — optimal-dynamics — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: optimal-dynamics
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.optimaldynamics.com
+  final_host: www.optimaldynamics.com
+  ownership: own
+  owner: optimal-dynamics
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 5
+  host_score: 5
+  density: 5.57
+  words: 897
+  tiers:
+    agentic: 3
+    core: 2
+    model: 0
+  ambiguous: 5
+  top_terms:
+    automation: 5
+    agentic: 3
+    AI: 2
