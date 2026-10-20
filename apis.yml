@@ -23,24 +23,24 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optimal-dynamics.png
 name: Optimal Dynamics
-description: 'Optimal Dynamics is the Decision Company for trucking. Its Transportation
-  Decision System (TDS), CORE.ai, applies Artificial Decision Intelligence — born from
-  40 years of research at Princeton University — to automate and optimize strategic,
+description: Optimal Dynamics is the Decision Company for trucking. Its Transportation
+  Decision System (TDS), CORE.ai, applies Artificial Decision Intelligence — born
+  from 40 years of research at Princeton University — to automate and optimize strategic,
   tactical, and real-time planning for enterprise truckload carriers. The platform
   spans dispatch management, network management, bid analysis, and network simulation,
   using dynamic forecasting to simulate downstream impacts and drive highly automated
-  operations that increase revenue per truck and reduce manual planning. Surfaced as
-  a portfolio company of bessemer-venture-partners.'
+  operations that increase revenue per truck and reduce manual planning. Surfaced
+  as a portfolio company of bessemer-venture-partners.
 url: https://raw.githubusercontent.com/api-evangelist/optimal-dynamics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - bessemer-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (local-v5; was portfolio-lead)
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-10-20'
 tags:
 - Company
 - Vertical Software
@@ -50,13 +50,28 @@ tags:
 - Supply Chain
 - Artificial Intelligence
 - Decision Automation
-apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: AgentCard
+  url: a2a/optimal-dynamics-a2a.yml
+- type: SecurityTxt
+  url: well-known/optimal-dynamics-app-security.txt
+- type: WellKnown
+  url: well-known/optimal-dynamics-well-known.yml
+- type: GettingStarted
+  url: https://docs.incident.io/alerts/getting-started
+- type: Documentation
+  url: https://docs.incident.io/
+- type: APIReference
+  url: https://docs.incident.io/llms.txt
+- type: Hosts
+  url: hosts/optimal-dynamics-hosts.yml
+- type: Vendors
+  url: vendors/optimal-dynamics-vendors.yml
 - type: Website
   url: https://www.optimaldynamics.com
 - type: About
@@ -75,12 +90,25 @@ common:
   url: security/optimal-dynamics-trust-center.yml
 - type: DomainSecurity
   url: security/optimal-dynamics-domain-security.yml
-- type: LLMsTxt
-  url: llms/optimal-dynamics-llms.txt
 - type: SignUp
   url: https://www.optimaldynamics.com/request-a-demo
+- type: Support
+  url: https://support.optimaldynamics.com/hc/en-us
+apis: []
 x-enrichment:
-  date: '2026-07-20'
-  status: enriched
-  artifacts_added: 3
-  pass: local-v1
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v5
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: optimaldynamics.com sells the CORE.ai trucking decision platform by demo
+    request only; /developers 404s, api.optimaldynamics.com does not resolve, and
+    the only docs links found belong to its status-page vendor incident.io.
+  evidence:
+  - url: https://www.optimaldynamics.com/developers
+    status: 404
+  - url: https://www.optimaldynamics.com/request-a-demo
+    status: 200
+  checked: '2026-10-20'
